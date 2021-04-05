@@ -4,6 +4,8 @@ public class MyMethodReferencesExample {
 	public static void main(String[] args) {
 		MyFunctionalInterface fi;
 		
+		
+		
 		fi= (x) -> {
 			int result = x * 5;
 			System.out.println(result);
